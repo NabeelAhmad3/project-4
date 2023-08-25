@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(33, 31, 31);
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    background-color: rgb(211, 158, 94);
+    padding: 2%;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    overflow-y: auto;
+
+}
+
+.todo-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.input-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px;
+}
+
+.input-items label {
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.input-items input:focus {
+    outline: 2px green;
+
+}
+
+.primary-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 27px;
+    padding: 7px;
+    width: 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* .primary-btn:hover {
+    background-color: red;
+}
+
+.secondry-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+.active{
+    background-color:red;
+} */
+.todo-list{
+    display: flex;
+    flex-direction: column;
+}
+/* .btn-area{
+    margin: 15px;
+} */
+.todo-list-items{
+    background-color:rgb(103, 83, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+.todo-list-items h5{
+font-size: 25px;
+font-weight:bold;
+background-color: rgb(156, 160, 128);
+margin: 0;
+}
+.todo-list-items  p{
+    font-size: 14px;
+    color: rgb(22, 12, 12);
+    background-color: rgb(225, 236, 225);
+    margin-top: 0px;
+    padding: 10px;
+}
+.icon{
+    font-size: 35px;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: red;
+}
+/* .check-icon{
+    font-size: 32px;
+    margin-left: 10px;
+    color:green;
+}
+.check-icon:hover{
+    color: rgb(178, 232, 178);
+} */
